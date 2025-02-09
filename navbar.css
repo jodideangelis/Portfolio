@@ -1,0 +1,42 @@
+nav {
+    display: flex; 
+    /* add display at top */
+    justify-content: space-between;
+    /* space between Portfolio and nav bar */
+    align-items: center;
+    background-color: aliceblue;
+    height: 50px;
+    /* 80px is standard for nav */
+    padding: 20px;
+}
+
+nav h1 {
+    color: black;
+    background: none;
+    font-family: var(--main-font);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    background: none;
+}
+
+nav ul li {
+    margin: 0 10px;
+    /* clockwise for margin sizes. Only 2 is top and bottom */
+    background: none;
+}
+
+
+nav a {
+    background: none;
+    font-family: var(--main-font);
+    font-size: 20px;
+    font-weight: 600;
+    /* boldness - no pixels */
+}
+
+nav a:hover {
+    color: var(--secondary-color);
+}

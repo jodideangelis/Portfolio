@@ -1,0 +1,30 @@
+form {
+    background: var(--secondary-color);
+    width: 40vw;
+    /* vw is viewport width. 40% of sliced viewport screen */
+    /* only use vw with forms or objects */
+    padding: 30px;
+    border-radius: 25px;
+}
+
+form input {
+    width: 100%;
+    font-size: 30px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid var(--main-color);
+    color: white;
+    outline: none;
+    /* outline around each input box */
+
+}
+
+form input[type="submit"] {
+    /* no space between input and [ */
+    margin-top: 20px;
+    margin-bottom: 0;
+    background: var(--main-color);
+    border-bottom: none;
+    padding: 10px;
+}

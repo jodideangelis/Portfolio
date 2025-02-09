@@ -3,32 +3,48 @@
  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="navbar.css" />
     <title>Portfolio Website</title>
  </head>
  <body>
-    <h1>My Portfolio</h1>
-    
+    <nav>
+        <h1>My Portfolio</h1>
+        <ul>
+            <li>
+                <a href="./index.html">Home</a>
+            </li>
+            <li>
+                <a href="./about.html">About Page</a>
+            </li>
+            <li>
+                <a href="./contact.html">Contact Us</a>
+            </li>
+        </ul>
+        <!-- use ul instead of ol -->
+    </nav>
     <!-- This is my code for Project 1 -->
-    <p>This is a website about my projects.</p>
-    <a href="./about.html">About Page</a>
+    <p class="message">This is a website about my projects.</p>
     <br />
-    <a href="./contact.html">Contact Us</a>
-    <section>
+    <section id="projects">
         <h2>Projects</h2>
-        <div>
-            <h3>Project 1</h3>
-            <p>This is Project 1.</p>
-            <a href="https://www.starbucks.com" target="_blank"><img src="./img/coffee.webp" alt="coffee" width="250"></a>
+        <div class="container">
+            <div class="project-card">
+                <h3 class="project-title">Project 1</h3>
+                <a href="https://www.starbucks.com" target="_blank"><img src="./img/coffee.webp" alt="coffee" width="250"></a>
+                <p class="project-text">This is Project 1.</p>
+            </div>
+            <div class="project-card">
+                <h3 class="project-title">Project 2</h3>
+                <a href="https://www.travelandleisure.com" target="_blank"><img src="./img/beach.jpg" alt="beach" width="250"></a>
+                <p class="project-text">This is Project 2.</p>
+            </div>
+
         </div>
         
         <br />
 
         <!-- This is my code for Project 2 -->
-        <div>
-            <h3>Project 2</h3>
-            <p>This is Project 2.</p>
-            <a href="https://www.beaches.com" target="_blank"><img src="./img/beach.jpg" alt="beach" width="250"></a>
-        </div>
     </section>
  </body>
 </html>
