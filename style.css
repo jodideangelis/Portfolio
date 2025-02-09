@@ -75,3 +75,21 @@ h1 {
     display: flex;
     justify-content: center;
 }
+
+@media (max-width: 768px) {
+    .message {
+        text-align: center;
+        font-family: var(--main-font);
+        color: white;
+        font-size: 40px;
+    }
+
+    #projects h2 {
+        font-size: 35px;
+    }
+
+    .container {
+        flex-wrap: wrap;
+        /* to vertically align text & wrap */
+    }
+}

@@ -40,3 +40,10 @@ nav a {
 nav a:hover {
     color: var(--secondary-color);
 }
+
+@media (max-width: 768px) {
+    nav h1 {
+        display: none;
+        /* in contact form. h1 My Portfolio.  */
+    }
+}

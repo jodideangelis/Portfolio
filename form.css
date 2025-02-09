@@ -28,3 +28,11 @@ form input[type="submit"] {
     border-bottom: none;
     padding: 10px;
 }
+
+@media (max-width: 768px) {
+    form {
+        width: 80vw;
+        /* viewport width */
+    }
+    /* for mobile device - side by side form.css.   */
+}
